@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "AWS region"
-  default     = "ap-south-1"
+  default     = "ap-south-2"
 }
  
 variable "vpc_cidr" {
@@ -15,7 +15,7 @@ variable "public_subnet_cidr" {
  
 variable "availability_zone" {
   description = "Availability zone for the subnet"
-  default     = "ap-south-1a"
+  default     = "ap-south-2a"
 }
  
 variable "vpc_name" {
