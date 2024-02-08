@@ -96,9 +96,6 @@ resource "aws_volume_attachment" "ebs_att"  {
     kms_key_id  = data.aws_kms_key.customer_master_key.arn
   }
 }
-resource "aws_s3_bucket" "myS3" {
-  bucket = "Demo-bucket"
-}
 
 resource "aws_security_group" "example_sg" {
   name = "ec2-sG"
