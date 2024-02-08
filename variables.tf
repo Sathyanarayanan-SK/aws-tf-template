@@ -35,7 +35,7 @@ variable "public_route_table_name" {
  
 variable "security_group_name" {
   description = "Name tag for security group"
-  default     = "MySecurityGroup"
+  default     = "SG-app1"
 }
  
 variable "ec2_ami" {
