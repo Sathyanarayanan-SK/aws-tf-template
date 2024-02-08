@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "AWS region"
-  default     = "ap-south-2"
+  default     = "ca-central-1"
 }
  
 variable "vpc_cidr" {
@@ -15,7 +15,7 @@ variable "public_subnet_cidr" {
  
 variable "availability_zone" {
   description = "Availability zone for the subnet"
-  default     = "ap-south-2a"
+  default     = "ca-central-1a"
 }
  
 variable "vpc_name" {
@@ -40,7 +40,7 @@ variable "security_group_name" {
  
 variable "ec2_ami" {
   description = "AMI ID for EC2 instance"
-  default     = "ami-12345678"
+  default     = "ami-0b47e94e754413bcb"
 }
  
 variable "ec2_instance_type" {
