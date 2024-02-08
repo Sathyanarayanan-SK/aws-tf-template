@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "AWS region"
-  default     = "ca-central-1"
+  default     = "ap-south-2"
 }
  
 variable "vpc_cidr" {
@@ -15,7 +15,7 @@ variable "public_subnet_cidr" {
  
 variable "availability_zone" {
   description = "Availability zone for the subnet"
-  default     = "ca-central-1a"
+  default     = "ap-south-2a"
 }
  
 variable "vpc_name" {
@@ -35,7 +35,7 @@ variable "public_route_table_name" {
  
 variable "security_group_name" {
   description = "Name tag for security group"
-  default     = "SG-app1"
+  default     = "new-SG"
 }
  
 variable "ec2_ami" {
